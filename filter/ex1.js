@@ -12,11 +12,9 @@ Sortie attendue:
  */
 
 function getPositiveNumbers(numbers) {
-  //const numbers = [3, 8, 0, 11, -17, 0, 9];
-  numbers.filter(function(numbers) {
-  return numbers !== 0;
-});
-}
+  // const numbers = [3, 8, 0, 11, -17, 0, 9];
+  return numbers.filter(numbers => numbers >= 0)
+};
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
 // mais alors, il faut alors lancer l'exercice avec node filter/ex1
